@@ -1,0 +1,128 @@
+::-webkit-scrollbar{
+    display: none;
+}   
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-main{
+    background: linear-gradient(rgba(78, 78, 78, 0.4), rgba(78, 78, 78, 0.4)), url(../assets/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.h1-main{
+    animation: fadeInUp .9s;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.89);
+    width: 380px;
+    text-align: center;
+    font-weight: 100;
+}
+
+h4{
+    animation: fadeInUp .9s;
+    color: rgba(255, 255, 255, 0.89);
+    width: 380px;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+.contenedor-titulo{
+    display: flex;
+    flex-direction: column;
+    height: 496px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav{
+    animation: fadeInDown .9s ;
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    height: 65px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    animation: fadeInUp .9s;
+    align-items: baseline;
+}
+
+.copy{
+    color:rgba(255, 255, 255, 0.89);
+    font-size: small;
+    font-weight: bold;
+    margin: 0;
+}
+
+.seguime{
+    color: white;
+    margin: 0;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+
+.ig{
+    width: 24px;
+}
+
+.ig:hover{
+    transform: scale(1.2);
+    transition-duration: .2s;
+}
+
+.tw{
+    padding-left: 10px;
+}
+
+.tw:hover{
+    transform: scale(1.2);
+    transition-duration: .2s;
+}
+
+.redes{
+    display: flex;
+}
+
+
+
+/* Pagina sobre mi */
+
+
+
+
+.body-sobre-mi{
+    background-image: linear-gradient( 89.4deg,  rgba(194,0,39,1) 0.8%, rgba(10,35,104,1) 99.4% );
+    background-attachment: fixed;
+}
+
+
+.container-card{
+    animation: fadeInRight 1.8s;
+    padding-bottom: 65px;
+    padding-top: 65px;
+    padding-left: 100px;
+}
+
+.row{
+    gap: 30px;
+    margin: 0;
+}
+
+
+.h1-sobre-mi{
+    color: #ffffff99;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
